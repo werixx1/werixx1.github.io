@@ -1,13 +1,37 @@
-html 
-{
-	background-image: url('bg.jpg');
-	font-family: Ms Gothic;
-
-}
-
 body 
 {
-	color: black;
-	margin: 0;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #090922;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+  opacity: 0.8;
 }
+
+.blur 
+{
+  opacity: 0.8;
+  filter: blur(100px);
+  width: 500px;
+  height: 500px;
+}
+
+.blob 
+{
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at center, #b864fd, #7f35ff);
+  clip-path: polygon(
+    12% 65%, 13% 39%, 88% 80%, 54% 30%, 39% 76%,
+    68% 94%, 7% 62%, 12% 45%, 100% 43%, 68% 23%,
+    11% 23%, 14% 19%, 63% 38%, 31% 10%, 28% 27%,
+    84% 27%, 17% 85%, 27% 66%, 98% 28%, 89% 84%
+  );
+}
+
+
+
 
