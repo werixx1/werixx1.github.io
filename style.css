@@ -1,36 +1,70 @@
 body 
 {
-  display: flex; 
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  background-color: #090922;
-  height: 100vh;
-  overflow: hidden;
+  background-image: url('mesh-gradient.svg');
+  background-size: cover;
   color: white;
   opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  min-height: 100vh;  
 }
 
-.blur 
+.container 
 {
-  opacity: 0.8;
-  filter: blur(100px);
-  width: 500px;
-  height: 500px;
+  display: flex;
 }
 
-.blob 
+.box-1 
 {
-  width: 100%;
-  height: 100%;
-  background: radial-gradient(circle at center, #b864fd, #7f35ff);
-  clip-path: polygon(
-    12% 65%, 13% 39%, 88% 80%, 54% 30%, 39% 76%,
-    68% 94%, 7% 62%, 12% 45%, 100% 43%, 68% 23%,
-    11% 23%, 14% 19%, 63% 38%, 31% 10%, 28% 27%,
-    84% 27%, 17% 85%, 27% 66%, 98% 28%, 89% 84%
-  );
+  height: 320px;
+  width: 320px;
+  background-color: rgba(0, 180, 255, 0.15); /* mint tint */
+  border: 2px solid rgba(255,255,255, .2);
+  backdrop-filter: blur(50px);
+  border-radius: 10px;
+  margin-right: 30px;
+  
+  font-family: 'Orbit', sans-serif;
+  color: white;
+  font-size: 10px;
 }
+
+
+.box-1 h1
+{
+  opacity: 0.9; 
+  margin: 10px;
+}
+
+/* text opacity */
+.box-1 p 
+{
+  opacity: 0.9; 
+  margin: 10px;
+}
+
+
+.box-2 
+{
+  height: 320px;
+  width: 320px;
+  background-color: transparent;
+  border: 2px solid rgba(255,255,255, .2);
+  backdrop-filter: blur(50px);
+  border-radius: 10px;
+  
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+}
+
+.box-2 h2, .box-2 p 
+{
+  opacity: 0.8; 
+}
+
+
+
 
 
 
