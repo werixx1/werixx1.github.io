@@ -10,6 +10,50 @@ body
   min-height: 100vh;  
 }
 
+/* animation */
+@keyframes fadeIn 
+{
+  0% 
+  {
+    opacity: 0;
+    transform: translateY(20px); 
+  }
+  100% 
+  {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInStatic 
+{
+  0% 
+  {
+    opacity: 0;
+  }
+  100% 
+  {
+    opacity: 1;
+  }
+}
+
+.social-links,
+.email-vertical 
+{
+  opacity: 0;
+  animation: fadeInStatic 1s ease-out forwards;
+}
+
+.container,
+.box-1,
+.box-2,
+.skill 
+{
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+}
+
+
 .container 
 {
   display: flex;
@@ -17,6 +61,7 @@ body
 
 .box-1 
 {
+  animation-delay: 0.2s;
   height: 320px;
   width: 320px;
   backdrop-filter: blur(50px);
@@ -35,6 +80,7 @@ body
 
 .box-2 
 {
+  animation-delay: 0.2s;
   height: 320px;
   width: 320px;
   background-color: transparent;
@@ -87,6 +133,7 @@ body
 
 .social-links 
 {
+  animation-delay: 0.4s;
   position: fixed;
   left: 30px;
   top: 50%;
@@ -114,6 +161,7 @@ body
 
 .email-vertical 
 {
+  animation-delay: 0.4s;
   position: fixed;
   right: 0;
   top: 50%;
