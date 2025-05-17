@@ -1,4 +1,6 @@
-body {
+/* 5f556b */
+body
+{
   margin: 0;
   padding: 0;
   color: white;
@@ -73,7 +75,7 @@ body {
   font-family: 'Orbit', sans-serif;
   color: white;
   font-size: 10px;
-  
+  box-shadow: 0 4px 20px #5f556b; 
 }
 
 /* text opacity */
@@ -87,11 +89,12 @@ body {
   animation-delay: 0.2s;
   height: 320px;
   width: 320px;
-  background-color: rgba(0, 0, 0, 0.15);
+  /* background-color: rgba(95, 85, 107, 0.10); */
   /* border: 2px solid rgba(255,255,255, .2); */
   backdrop-filter: blur(20px);
   border-radius: 10px;
-  
+  box-shadow: 0 4px 20px #5f556b; 
+
   font-family: 'Orbit', sans-serif;
   color: white;
   font-size: 10px;
