@@ -58,10 +58,25 @@ body
   animation: fadeIn 1s ease-out forwards;
 }
 
-
-.container 
+/* for content on page */
+.container
 {
   display: flex;
+  flex-direction: column; 
+}
+
+/* for boxes to be beside eachother */
+.container-box
+{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.container-tag
+{
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: 20px;
 }
 
 .box-1 
@@ -78,7 +93,7 @@ body
   box-shadow: 0 4px 20px #5f556b; 
 }
 
-/* text opacity */
+/* so texts are kinda centered */
 .box-1 h1, .box-1 p
 {
   margin: 10px;
@@ -100,6 +115,40 @@ body
   font-size: 10px;
 }
 
+.box-repo
+{
+  height: 100px;
+  width: 210px;
+  background-color: #fce7ff11;
+  border-radius: 10px;
+  margin-right: 20px; 
+  font-family: 'Orbit', sans-serif;
+  color: white;
+  font-size: 9px;
+  box-shadow: 0 4px 20px #69556b; 
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.box-repo h2, .box-repo p
+{
+  margin: 10px;
+}
+
+/* tags for repos */
+.topic
+{
+  height: 20px;
+  width: 50px;
+  background-color: rgba(163, 133, 182, 0.29);
+  border-radius: 10px;
+  margin-left: 5px;
+  font-family: 'Orbit', sans-serif;
+  color: white;
+  font-size: 9px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .skill 
 {
@@ -164,7 +213,6 @@ body
   opacity: 1;
   transform: scale(1.1);
 }
-
 
 .email-vertical 
 {
@@ -289,6 +337,8 @@ body
     51vw 92vh 2px white, 59vw 78vh 1px white;
   animation: twinkle 6s infinite linear reverse;
 }
+
+
 
 
 
