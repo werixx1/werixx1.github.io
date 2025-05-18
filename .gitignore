@@ -1,4 +1,5 @@
 *~
 .*.un~
 *.swp
-test*.html
+test*.*
+test_*.*
