@@ -90,7 +90,7 @@ body
   font-family: 'Orbit', sans-serif;
   color: white;
   font-size: 10px;
-  box-shadow: 0 4px 20px #5f556b; 
+  box-shadow: 0 4px 10px #5f556b; 
 }
 
 /* so texts are kinda centered */
@@ -108,7 +108,7 @@ body
   /* border: 2px solid rgba(255,255,255, .2); */
   backdrop-filter: blur(20px);
   border-radius: 10px;
-  box-shadow: 0 4px 20px #5f556b; 
+  box-shadow: 0 4px 10px #5f556b; 
 
   font-family: 'Orbit', sans-serif;
   color: white;
@@ -125,7 +125,7 @@ body
   font-family: 'Orbit', sans-serif;
   color: white;
   font-size: 9px;
-  box-shadow: 0 4px 20px #69556b; 
+  box-shadow: 0 4px 8px #69556b; 
   animation: fadeIn 1s ease-out forwards;
 }
 
